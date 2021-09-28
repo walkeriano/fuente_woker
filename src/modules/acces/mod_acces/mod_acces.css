@@ -1,0 +1,263 @@
+.acceso_usuario{
+    background: rgba(255, 255, 255, 0.37);
+    border: 1px solid white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    position: absolute;
+    bottom:0;
+    height: 410px;
+    width: 90%;
+}
+
+h2{
+    margin: 20px;
+    font-size: 1.0rem;
+    text-align: center;
+    color: white;
+}
+
+.action_acceso_usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_usuario{
+    width: 35%;
+    border: 0px solid white;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.usuario{
+    margin: auto;
+    width: 70px;
+}
+
+p{
+    color: white;
+    font-size: 1.0rem;
+    text-align: center;
+    margin-top: 5px;
+}
+        
+
+.btn_abogado{
+    width: 35%;
+    border: 0px solid white;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.usuario{
+    margin: auto;
+    width: 70px;
+    opacity:0.5;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.0rem;
+    text-align: center;
+    margin-top: 5px;
+ }
+        
+
+.linea{
+    width:2px;
+    height:70px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+    
+
+.flex_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.flex_acceso_rapido{
+    width: 35%;
+    margin-right: 10px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.acceso_rapido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acceso_fb{
+    height: 80px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+            
+
+.box_fb{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.circle{
+    width: 4px;
+    height: 4px;
+    background-color:white;
+    border-radius: 10px;
+    margin: 2px;
+}
+                        
+                                   
+.btn_fb{
+    width:80%;
+    height:25px;
+    border-radius: 5px;
+    background: white;
+    margin: auto;
+    margin-top: 33px;
+}
+                
+
+.fb{
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+                
+.acceso_gmail{
+    height: 80px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-left: 7px;
+}
+
+.box_gmail{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.circle{
+    width: 4px;
+    height: 4px;
+    background-color:white;
+    border-radius: 10px;
+    margin: 2px;
+}
+                    
+
+.btn_gmail{
+    width:80%;
+    height:25px;
+    border-radius: 5px;
+    background: white;
+    margin: auto;
+    margin-top: 33px;                    
+}
+                
+
+.gmail{
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+            
+         
+        
+.flex_iniciar_sesion{
+    width: 35%;
+    margin-left: 20px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.div_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    height:40px;
+    margin-top: 10px;
+}
+
+.input_name{
+    width:100%;
+    background: none;
+    border: none;
+}
+
+.input_name::placeholder{
+    color: white;
+}
+                
+
+a{
+    text-decoration: none;
+    color: orangered;
+    padding:1px 5px;
+    background-color:white;
+    border-radius: 50px;
+    font-size: 13px;
+}
+                   
+
+.div_password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    height:40px;
+    margin-top: 10px;
+}
+
+.input_password{
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.input_password::placeholder{
+    color: white;
+}
+                
+
+a{
+    text-decoration: none;
+    color: orangered;
+    padding:1px 5px;
+    background-color:white;
+    border-radius: 50px;
+    font-size: 13px;
+}
+            
+        
+    
+
+.lost_password{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size:0.90rem;
+    bottom: 25px;
+    left: 20%;    
+    }
