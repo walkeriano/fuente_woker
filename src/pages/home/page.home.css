@@ -142,6 +142,11 @@ p {
   align-items: center;
 }
 
+.acceso_rapido .is-active .btn_fb,
+.acceso_rapido .is-active .btn_gmail {
+  margin-top: 6px;
+}
+
 .acceso_fb {
   height: 80px;
   width: 50px;
@@ -299,4 +304,8 @@ p {
     padding: 5px 8px;
     background: white;
     border-radius: 50px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
