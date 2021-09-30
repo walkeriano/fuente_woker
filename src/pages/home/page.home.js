@@ -15,13 +15,15 @@ export function Home() {
 
         {!show && (
           <div>
-            <h2 className="titulo_h2">CONTACTA ABOGADOS AL INSTANTE</h2>
+            <h2 className="titulo_h2">Contacta<br />Abogados al Instante</h2>
             <div className="a_conocenos_div">
               <span onClick={() => setShow(true)} className="a_conocenos">
                 Iniciar Busqueda
               </span>
             </div>
-            <img src={flecha} className="btn_flecha" alt="btn_flecha" />
+            <div className="btn_flecha">
+                <img src={flecha} alt="btn_flecha" />
+            </div>
           </div>
         )}
       </div>
@@ -113,7 +115,7 @@ export function Home() {
           </a>
           <div className="cerrar-div">
             <span onClick={() => setShow(false)} className="cerrar">
-                X
+                x
             </span>
           </div>
         </div>
