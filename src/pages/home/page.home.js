@@ -5,11 +5,13 @@ import usuario from "../../img/usuario.svg";
 import abogado from "../../img/abogado.svg";
 import fondo from "../../img/fondo.svg";
 import { useState, useRef } from "react";
+import { useHistory } from "react-router-dom";
 
 export function Home() {
   const [show, setShow] = useState(false);
   const refButtonFb = useRef(null);
   const refButtonGmail = useRef(null);
+  let history = useHistory();
 
   function authFacebook() {
     // invocar api de facebook
@@ -29,24 +31,33 @@ export function Home() {
 
     social === "facebook" ? authFacebook() : authGmail();
   }
+
+  const onSubmit = (event) => {
+    event.preventDefault();
+    console.log("submit!!!");
+    history.push("/categories/page-categories");
+  };
   return (
     <section className="body_home">
-      
       <div>
         <img src={fondo} className="fondo" alt="fondo" />
         <h1 className="titulo_h1">Respaldo Legal Inmediato</h1>
         <img src={logo} className="logo_woker" alt="logo_woker" />
-        
+
         {!show && (
           <div>
-            <h2 className="titulo_h2">Contacta<br />Abogados al Instante</h2>
+            <h2 className="titulo_h2">
+              Contacta
+              <br />
+              Abogados al Instante
+            </h2>
             <div className="a_conocenos_div">
               <span onClick={() => setShow(true)} className="a_conocenos">
                 Iniciar
               </span>
             </div>
             <div className="btn_flecha">
-                <img src={flecha} alt="btn_flecha" />
+              <img src={flecha} alt="btn_flecha" />
             </div>
           </div>
         )}
@@ -111,7 +122,7 @@ export function Home() {
                 </div>
               </div>
             </div>
-            <form className="flex_iniciar_sesion">
+            <form className="flex_iniciar_sesion" onSubmit={onSubmit}>
               <p>Iniciar Sesión</p>
               <div className="div_name">
                 <input
@@ -135,10 +146,10 @@ export function Home() {
                   placeholder="Password"
                   required
                 />
-                <a className="flecha" href="">
+                <button className="flecha" href="">
                   {" "}
                   >{" "}
-                </a>
+                </button>
               </div>
             </form>
           </div>
