@@ -3,22 +3,46 @@ import logo from "../../img/logo_woker.svg";
 import flecha from "../../img/btn_flecha.svg";
 import usuario from "../../img/usuario.svg";
 import abogado from "../../img/abogado.svg";
-import { useState } from "react";
+import fondo from "../../img/fondo.svg";
+import { useState, useRef } from "react";
 
 export function Home() {
   const [show, setShow] = useState(false);
+  const refButtonFb = useRef(null);
+  const refButtonGmail = useRef(null);
+
+  function authFacebook() {
+    // invocar api de facebook
+    console.log("autenticacion facebook");
+  }
+
+  function authGmail() {
+    // invocar api de gmail
+    console.log("autenticacion gmail");
+  }
+
+  function activateAuthSocial(social, ref) {
+    console.log("social", social);
+    console.log("ref", ref);
+    const { current } = ref;
+    current.classList.toggle("is-active");
+
+    social === "facebook" ? authFacebook() : authGmail();
+  }
   return (
     <section className="body_home">
+      
       <div>
+        <img src={fondo} className="fondo" alt="fondo" />
         <h1 className="titulo_h1">Respaldo Legal Inmediato</h1>
         <img src={logo} className="logo_woker" alt="logo_woker" />
-
+        
         {!show && (
           <div>
             <h2 className="titulo_h2">Contacta<br />Abogados al Instante</h2>
             <div className="a_conocenos_div">
               <span onClick={() => setShow(true)} className="a_conocenos">
-                Iniciar Busqueda
+                Iniciar
               </span>
             </div>
             <div className="btn_flecha">
@@ -53,7 +77,11 @@ export function Home() {
             <div className="flex_acceso_rapido">
               <p>Acceso Rápido</p>
               <div className="acceso_rapido">
-                <div>
+                <div
+                  ref={refButtonFb}
+                  className="cursor-pointer"
+                  onClick={() => activateAuthSocial("facebook", refButtonFb)}
+                >
                   <div className="acceso_fb">
                     <div>
                       <div className="box_fb">
@@ -66,7 +94,11 @@ export function Home() {
                   </div>
                   <p className="fb">Facebook</p>
                 </div>
-                <div>
+                <div
+                  ref={refButtonGmail}
+                  className="cursor-pointer"
+                  onClick={() => activateAuthSocial("gmail", refButtonGmail)}
+                >
                   <div className="acceso_gmail">
                     <div className="box_gmail">
                       <div className="circle"></div>
@@ -115,7 +147,7 @@ export function Home() {
           </a>
           <div className="cerrar-div">
             <span onClick={() => setShow(false)} className="cerrar">
-                x
+              X
             </span>
           </div>
         </div>

@@ -1,0 +1,83 @@
+.body-categories{
+    background: linear-gradient(to top, #ffffff, #dfdfdf );
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.logoNaranja {
+    display: block;
+    margin: auto;
+    width: 190px;
+    padding-top: 30px;
+}
+
+.titulo-h2-categories{
+    color: #ff5a00;
+    text-align: center;
+    font-size: 1.0rem;
+    margin-top: 60px;
+    position: relative;
+}
+
+.all-categories{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.flex-cat{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.cat{
+    background: linear-gradient(to top, #ff9200, #ff5a00);
+    width: 50%;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 8px rgb(214, 214, 214);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.cat:hover{
+    border: 1px solid white;
+}
+
+.icon-cat{
+    width: 55px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.titulo-cat{
+    text-align: center;
+    margin: 10px;
+    font-size:0.9rem;
+}
+
+.flex-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #ff9200, #ff5a00);
+    width: 50px;
+    height: 15px;
+    margin: auto;
+    border-radius:80px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.circle-2 {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    
+}
