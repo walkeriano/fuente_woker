@@ -1,0 +1,219 @@
+.sec-gen{
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    border: 0px solid white;
+    position: relative;
+    
+}
+
+.header-exp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding-top:30px;
+    position: relative;
+}
+
+.expwoklogo{
+    width: 210px;
+    margin-top: 15px;
+}
+
+.x2{
+    padding:7px 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius:30px;
+    color:white;
+}
+
+.titulo-h2-expedientes{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top:70px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.box-div{
+    border: 2px solid white;
+    width: 15px;
+    height: 15px;
+    border-radius:30px ;
+}
+
+.flex-datos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top:40px;
+}
+
+.flex-datos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.p-divs{
+    font-size: 1.0rem;
+    margin: 10px;
+    color: white;
+}
+
+.p-divs-exp{
+    font-size: 0.9rem;
+    margin: 10px;
+    color: white;
+}
+
+.p-div1{
+    font-size: 0.9rem;
+    margin: 10px;
+    color: white;
+}
+
+.div-acceso{
+    background-color:rgba(255, 255, 255, 0.26);
+    width: 100%;
+    height: 250px;
+    border-radius:30px;
+}
+
+.div-datos{
+    background-color:rgba(255, 255, 255, 0.26);
+    width: 100%;
+    height: 285px;
+    border-radius:30px;
+    margin-top: 30px;
+}
+
+
+
+.div-categoria{
+    background-color:rgba(255, 255, 255, 0.26);
+    width: 100%;
+    height: 255px;
+    border-radius:30px;
+    margin-top: 45px;
+}
+
+.div-fortaleza{
+    background-color:rgba(255, 255, 255, 0.26);
+    width: 100%;
+    height: 255px;
+    border-radius:30px;
+    margin-top: 40px;
+}
+
+.inp{
+    width: 70%;
+    height:40px;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    border-radius:50px;
+    margin: 10px;
+    
+}
+
+.inp::placeholder{
+    color: #cfcfcf;
+    text-align: center;
+}
+
+.inp:focus{
+    color: #cfcfcf;
+    text-align: center;
+}
+
+.inp:hover{
+    color: #cfcfcf;
+    text-align: center;
+}
+
+option{
+    color: #cfcfcf;
+    text-align: center;
+    
+}
+
+select{
+    color: #cfcfcf;
+    text-align: center;
+}
+
+.btn-crear-exp{
+    height: 40px;
+    padding: 10px 20px;
+    margin: 25px;
+    background-color:transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 40px;
+    position: relative;
+    top: 20px;
+}
+
+.form-fortaleza{
+    padding-top:40px;
+}
+
+.p-div2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #cfcfcf;
+    font-size:1.0rem;
+}
+
+.candado{
+    width:65px;
+    margin-top:25px;
+}
+
+.p-div3{
+    font-size:1.0rem;
+    margin-top: 12px;
+}
+
+.div-candado{
+    background-color:rgba(134, 134, 134, 0.226);
+    width: 90%;
+    height: 270px;
+    border-radius:30px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.p-div4{
+    font-size:0.9rem;
+    margin-top: 20px;
+}
+
+.p-div5{
+    font-size:0.9rem;
+    margin-top: 22px;
+}
+
+.flex-alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.alert{
+    width:25px;
+}
+
+.radio-ter{
+    border: none;
+}

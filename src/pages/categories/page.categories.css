@@ -1,83 +1,155 @@
-.body-categories{
-    background: linear-gradient(to top, #ffffff, #dfdfdf );
-    object-fit: cover;
-    width: 100%;
-    height: 100vh;
+.body-categories {
+  background: linear-gradient(to top, #ffffff, #dfdfdf);
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 .logoNaranja {
-    display: block;
-    margin: auto;
-    width: 190px;
-    padding-top: 30px;
+  display: block;
+  margin: auto;
+  width: 190px;
+  padding-top: 30px;
 }
 
-.titulo-h2-categories{
-    color: #ff5a00;
-    text-align: center;
-    font-size: 1.0rem;
-    margin-top: 60px;
-    position: relative;
+.titulo-h2-categories {
+  color: #ff5a00;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 60px;
+  position: relative;
 }
 
-.all-categories{
-    width: 80%;
-    margin: auto;
-    margin-top: 25px;
-    padding-bottom: 20px;
-    position: relative;
+.all-categories {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  padding-bottom: 20px;
+  position: relative;
 }
 
-.flex-cat{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5px;
+.x-categories {
+  position: absolute;
+  border: 2px solid #ff5a00;
+  padding: 5px 8px;
+  border-radius: 50px;
+  color: #ff5a00;
+  font-size: 0.9rem;
+  background-color: transparent;
+  left: 40px;
+  top: 70px;
 }
 
-.cat{
-    background: linear-gradient(to top, #ff9200, #ff5a00);
-    width: 50%;
-    margin: 10px;
-    border-radius: 30px;
-    box-shadow: 0px 8px 8px rgb(214, 214, 214);
-    border: 1px solid rgba(255, 255, 255, 0);
+
+.flex-cat {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
 }
 
-.cat:hover{
-    border: 1px solid white;
+.cat {
+  background: linear-gradient(to top, #ff9200, #ff5a00);
+  width: 50%;
+  height: 170px;
+  margin: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 8px 8px rgb(214, 214, 214);
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
-.icon-cat{
-    width: 55px;
-    display: block;
-    margin: auto;
-    margin-top: 10px;
+.cat:hover {
+  border: 1px solid white;
 }
 
-.titulo-cat{
-    text-align: center;
-    margin: 10px;
-    font-size:0.9rem;
+.icon-cat {
+  width: 55px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
 }
 
-.flex-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to top, #ff9200, #ff5a00);
-    width: 50px;
-    height: 15px;
-    margin: auto;
-    border-radius:80px;
-    margin-top: 15px;
-    margin-bottom: 10px;
+.catVioDom{
+  display: block;
+  margin: auto;
+  width: 53px;
+  margin-top: 17px;
+}
+
+.catEstafas{
+  display: block;
+  margin: auto;
+  width: 58px;
+  margin-top: 19px;
+}
+
+.catLgbt{
+  display: block;
+  margin: auto;
+  width: 80px;
+  margin-top: 22px;
+}
+
+.catAdm{
+  display: block;
+  margin: auto;
+  width: 52px;
+  margin-top: 10px;
+  
+}
+
+.catDiscr{
+  display: block;
+  margin: auto;
+  width: 72px;
+  margin-top: 18px;
+}
+
+.catTransito{
+  display: block;
+  margin: auto;
+  width: 80px;
+  margin-top: 13px;
+}
+
+.titulo-cat {
+  text-align: center;
+  margin: 10px;
+  font-size: 0.9rem;
+  letter-spacing:0.5px;
+  margin-top:20px;
+}
+
+.catProteccion{
+  display: block;
+  margin: auto;
+  width: 45px;
+  margin-top: 13px;
+}
+
+.catAnimal{
+  display: block;
+  margin: auto;
+  width: 57px;
+  margin-top: 13px;
+}
+
+.flex-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #ff9200, #ff5a00);
+  width: 50px;
+  height: 15px;
+  margin: auto;
+  border-radius: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .circle-2 {
-    width: 4px;
-    height: 4px;
-    background-color: white;
-    border-radius: 10px;
-    margin: 2px;
-    
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2px;
 }

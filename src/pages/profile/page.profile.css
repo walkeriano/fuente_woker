@@ -1,0 +1,189 @@
+.body_home3 {
+  background: linear-gradient(to top, #ff9200, #ff5a00, #c4004d);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.fondo3 {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.2;
+  position: absolute;
+  top: -220px;
+}
+
+.logo_woker2 {
+  display: block;
+  margin: auto;
+  width: 170px;
+  margin-top: 30px;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.x3 {
+  border: 2px solid #ffffff;
+  padding: 5px 8px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 0.9rem;
+  margin-top: 50px;
+  position: relative;
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+.divNameUser {
+  margin-top: 25px;
+}
+
+.nameUser {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.men2 {
+  display: block;
+  margin: auto;
+  border-radius: 25px;
+  border: 1px solid white;
+  margin-top: 20px;
+  object-fit: cover;
+  width: 288px;
+  height: 280px;
+}
+
+.sectionProfile {
+  width: 70%;
+  margin: auto;
+}
+
+.flexBtnProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.flexBtn {
+  color: white;
+  font-size: 0.8rem;
+  width: 45%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(to top, #ff9200, #ff5a00);
+  letter-spacing: 0.5px;
+}
+
+.flexBtnContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btnContact {
+  background: linear-gradient(to top, #ff9200, #ff5a00);
+  width: 80px;
+  height: 120px;
+  border-radius: 15px;
+}
+
+.flex-btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #ff9200, #ff5a00);
+  width: 45px;
+  height: 13px;
+  margin: auto;
+  border-radius: 80px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.wssLogo {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 33px;
+}
+
+.iconLlamada {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 30px;
+}
+
+.iconCorreo {
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  width: 34px;
+}
+
+.pMensaje {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.secBenefits {
+  width: 288px;
+  height: 130px;
+  background: linear-gradient(to top, #ff9200, #ff5a00);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.benefits {
+  background-color: rgba(255, 255, 255, 0.234);
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  margin: 22px 15px;
+}
+
+.horario {
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+  width: 32px;
+}
+
+.maestria {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 25px;
+}
+
+.pBenefits {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.creativo {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 35px;
+}

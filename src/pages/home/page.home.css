@@ -6,7 +6,7 @@
   z-index: -1;
 }
 
-.fondo{
+.fondo {
   object-fit: cover;
   width: 100%;
   height: 100vh;
@@ -15,38 +15,37 @@
   top: -118px;
 }
 
-
-
 .titulo_h1 {
   color: white;
   text-align: center;
-  padding-top: 30px;
-  font-size: 1.1rem;
+  padding-top: 40px;
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
 
 .logo_woker {
   display: block;
   margin: auto;
   width: 250px;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .a_conocenos_div {
   margin-top: 30px;
   text-align: center;
-  position:relative;
+  position: relative;
 }
 
 .a_conocenos {
   text-decoration: none;
   color: white;
-  padding: 10px 20px;
+  padding: 8px 20px;
   border: 1px solid white;
   border-radius: 50px;
-  
+  letter-spacing: 1px;
 }
 
-.a_conocenos:hover{
+.a_conocenos:hover {
   background-color: white;
   color: #ff5a00;
 }
@@ -61,14 +60,13 @@
 .btn_flecha {
   width: 60px;
   position: absolute;
-  bottom:50px;
-  left: 42%;
-  right: 42%;
+  bottom: 50px;
+  left: 43%;
+  right: 43%;
 }
 
 .acceso_usuario {
-  background: rgba(255, 255, 255, 0.213);
-  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.111);
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   position: absolute;
@@ -76,14 +74,15 @@
   height: 415px;
   width: 90%;
   left: 5%;
-  right: 5%;  
+  right: 5%;
 }
 
 .h2 {
-  margin: 20px;
-  font-size: 1rem;
+  margin: 25px;
+  font-size: 0.9rem;
   text-align: center;
   color: white;
+  letter-spacing: 0.8px;
 }
 
 .action_acceso_usuario {
@@ -93,15 +92,17 @@
 }
 
 .btn_usuario {
-  width: 35%;
-  border: 0px solid white;
-  margin-right: 15px;
+  width: 30%;
+  border: 1px solid transparent;
+  margin-right: 20px;
   padding: 10px;
+  position: relative;
 }
 
-.usuario {
-  margin: auto;
-  width: 50px;
+.btn_usuario:active{
+  border: 1px solid white;
+  border-radius:25px;
+  width: 30%;
 }
 
 p {
@@ -112,16 +113,31 @@ p {
 }
 
 .btn_abogado {
-  width: 35%;
-  border: 0px solid white;
-  margin-left: 15px;
+  width: 30%;
+  border: 1px solid transparent;
+  margin-left: 20px;
   padding: 10px;
+}
+
+.btn_abogado:active {
+  border: 1px solid white;
+  border-radius:25px;
+  width: 30%;
 }
 
 .usuario {
   margin: auto;
-  width: 70px;
-  opacity: 0.5;
+  width: 60px;
+}
+
+.pUser {
+  font-size: 0.8rem;
+  letter-spacing: 0.8px;
+}
+
+.abogado {
+  margin: auto;
+  width: 60px;
 }
 
 p {
@@ -131,13 +147,6 @@ p {
   margin-top: 5px;
 }
 
-.linea {
-  width: 2px;
-  height: 70px;
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
-}
-
 .flex_form {
   display: flex;
   justify-content: center;
@@ -145,8 +154,20 @@ p {
   margin-top: 20px;
 }
 
+.flex_form2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
 .flex_acceso_rapido {
   width: 35%;
+  margin-right: 10px;
+}
+
+.flex_acceso_rapido2 {
+  width: 50%;
   margin-right: 10px;
 }
 
@@ -162,8 +183,17 @@ p {
   align-items: center;
 }
 
+.acceso_rapido2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
 .acceso_rapido .is-active .btn_fb,
-.acceso_rapido .is-active .btn_gmail {
+.acceso_rapido .is-active .btn_fb2,
+.acceso_rapido .is-active .btn_gmail,
+.acceso_rapido .is-active .btn_gmail2{
   margin-top: 6px;
 }
 
@@ -175,7 +205,21 @@ p {
   display: flex;
   flex-direction: column;
   margin-top: 12px;
+  margin-right: 15x;
 }
+
+.acceso_fb2 {
+  height: 100px;
+  width: 80px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-right: 10px;
+  margin-right: 20px;
+}
+
 
 .box_fb {
   display: flex;
@@ -198,11 +242,42 @@ p {
   background: white;
   margin: auto;
   margin-top: 33px;
+  
+}
+
+.btn_fb2 {
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  background: white;
+  margin: auto;
+  margin-top: 40px;
+}
+
+
+.iconFb {
+  width: 8px;
+  margin-left: 14px;
+  margin-top: 5px;
+}
+
+.iconGmail {
+  width: 25px;
+  margin-left: 6px;
+  margin-top: 4px;
 }
 
 .fb {
   font-size: 0.8rem;
   margin-top: 5px;
+  margin-right: 12px;
+}
+
+.fb2 {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-right: 18px;
+  letter-spacing: 0.5px;
 }
 
 .acceso_gmail {
@@ -213,8 +288,29 @@ p {
   display: flex;
   flex-direction: column;
   margin-top: 12px;
-  margin-left: 7px;
 }
+
+.acceso_gmail2 {
+  height: 100px;
+  width: 80px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.acceso_gmail3 {
+  height: 100px;
+  width: 80px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
 
 .box_gmail {
   display: flex;
@@ -239,9 +335,32 @@ p {
   margin-top: 33px;
 }
 
+.btn_gmail2 {
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  background: white;
+  margin: auto;
+  margin-top: 40px;
+}
+
 .gmail {
   font-size: 0.8rem;
   margin-top: 5px;
+}
+
+
+.gmail2 {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-right: 20px;
+  letter-spacing: 0.5px;
+}
+
+.gmail3 {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  letter-spacing: 0.5px;
 }
 
 .flex_iniciar_sesion {
@@ -249,10 +368,20 @@ p {
   margin-left: 20px;
 }
 
-p {
-  color: white;
+.p {
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.p2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  letter-spacing:0.5px;
 }
 
 .div_name {
@@ -268,6 +397,8 @@ p {
   width: 100%;
   background: none;
   border: none;
+  color: white;
+  letter-spacing: 0.5px;
 }
 
 .input_name::placeholder {
@@ -287,6 +418,8 @@ p {
   width: 100%;
   background: none;
   border: none;
+  color: white;
+  letter-spacing: 0.5px;
 }
 
 .input_password::placeholder {
@@ -299,7 +432,8 @@ p {
   padding: 1px 5px;
   background-color: white;
   border-radius: 50px;
-  font-size: 13px;
+  font-size: 16px;
+  border: none;
 }
 
 .lost_password {
@@ -308,24 +442,42 @@ p {
   color: white;
   font-size: 0.9rem;
   bottom: 25px;
-  left: 22%;
-  right: 22%;
+  left: 27%;
+  right: 27%;
 }
 
-.cerrar-div{
-    position: absolute;
-    top: -8px;
-    right:30px;
+.cerrar-div {
+  position: absolute;
+  top: -8px;
+  right: 30px;
 }
 
-.cerrar{
-    font-size:1.1rem;
-    color: #ff5a00;
-    padding: 5px 10px;
-    background: white;
-    border-radius: 50px;
+.cerrar {
+  font-size: 0.9rem;
+  color: #ff5a00;
+  padding: 5px 9px;
+  background: white;
+  border-radius: 50px;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.iconop1{
+  width:43px;
+  margin-left: 8px;
+  margin-top:4px;
+}
+
+.iconop2{
+  width:24px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.iconop3{
+  width:45px;
+  margin-left: 8px;
+  margin-top: 6px;
 }

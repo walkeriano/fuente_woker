@@ -1,0 +1,315 @@
+.sectionProfile2 {
+  width: 95%;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.men3 {
+  display: block;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin-top: 40px;
+  object-fit: cover;
+  width: 288px;
+  height: 280px;
+}
+
+.flexBtnProfile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.flexBtn-agilizar {
+  color: rgb(197, 197, 197);
+  font-size: 0.8rem;
+  width: 45%;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background: white;
+  letter-spacing: 0.5px;
+}
+
+.flexBtnContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btnContact-agilizar {
+  background: white;
+  width: 80px;
+  height: 120px;
+  border-radius: 15px;
+}
+
+.flex-btn3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbcbcb69;
+  width: 45px;
+  height: 13px;
+  margin: auto;
+  border-radius: 80px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.wssLogo {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 33px;
+}
+
+.iconLlamada {
+  display: block;
+  margin: auto;
+  margin-top: 13px;
+  width: 30px;
+}
+
+.iconCorreo {
+  display: block;
+  margin: auto;
+  margin-top: 18px;
+  width: 34px;
+}
+
+.pMensaje-agilizar {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #cbcbcb;
+}
+
+.secBenefits2 {
+  width: 288px;
+  height: 130px;
+  background: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.benefits2 {
+  background-color: #cbcbcbbe;
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  margin: 22px 15px;
+}
+
+.horario {
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+  width: 32px;
+}
+
+.maestria {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 25px;
+}
+
+.pBenefits {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #cbcbcb;
+}
+
+.creativo {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 35px;
+}
+
+.flex-functions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.flex-edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 38px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.p-edit {
+  color: rgb(189, 189, 189);
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.btn-agilizar {
+  width: 85px;
+  height: 110px;
+  background: linear-gradient(to top, #00a9ff, #0076ff);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.h2-functions {
+  color: white;
+  font-size: 1.9rem;
+  text-align: left;
+}
+
+.p-functions {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.edit {
+  width: 17px;
+}
+
+.agilizar {
+  width: 48px;
+}
+
+.p-agilizar {
+  font-size: 0.9rem;
+}
+
+.flex-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+
+.Sec-agilizar{
+  margin-top:75px;
+}
+
+.flex-info-agilizar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:313px;
+  height:140px;
+  background-color:white;
+  margin: auto;
+  border-radius:20px;
+  margin-top: 35px;
+  padding:15px;
+}
+
+.p-info-agil{
+  text-align: left;
+  color: #0076ff;
+  font-size:0.8rem;
+  margin-top: 12px;
+}
+
+.h2-info-agil{
+  color: #0076ff;
+  font-size: 0.9rem;
+  text-align:left;
+}
+
+.h2-agilizar{
+  color: white;
+}
+
+.flex-functions-agilizar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:50px;
+}
+
+.functions-agilizar{
+  background-color:white;
+  border-radius: 20px;
+  width:130px;
+  height:190px;
+}
+
+.h2-functions-agil{
+  font-size: 0.9rem;
+  color: #0076ff;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.div-circle{
+  width:60px;
+  height: 60px;;
+  background-color: #0076ff;
+  border: 3px solid white;
+  margin: auto;
+  position: relative;
+  bottom: 28px;
+  border-radius:30px;
+}
+
+.p-functions-agil{
+  color: #0076ff;
+  font-size:0.7rem;
+  position: relative;
+  bottom: 15px;
+  height:45px;
+  width: 90%;
+  margin: auto;
+  margin-top:8px;
+}
+
+.price-functions-agil{
+  color:#0076ff;
+  font-size:1.1rem;
+}
+
+.funone{
+  width: 40px;
+  margin-top: 7px;
+}
+
+.funtwo{
+  width: 45px;
+  margin-top: 5px;
+}
+
+.funthree{
+  width: 40px;
+  margin-top: 7px;
+}
+
+.funfour{
+  width: 50px;
+}
+
+.flex-paso{
+  margin-top: 30px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-descr{
+  font-size:1.0rem;
+  margin-top: 15px;
+}

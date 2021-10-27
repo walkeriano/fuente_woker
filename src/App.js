@@ -5,6 +5,9 @@ import {
   Categories,
   AllPro,
   Profile,
+  Expedientes,
+  Abogados,
+  Actprofile,
 } from "./pages"
 
 export default function App() {
@@ -23,6 +26,15 @@ export default function App() {
           </Route>
           <Route path="/page-profile">
             <Profile />
+          </Route>
+          <Route path="/page.expedientes">
+            <Expedientes />
+          </Route>
+          <Route path="/page.abogados">
+            <Abogados />
+          </Route>
+          <Route path="/page.actprofile">
+            <Actprofile />
           </Route>
         </Switch>
       </Router>
